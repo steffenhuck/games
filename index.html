@@ -96,7 +96,7 @@
     width: 1.6em;
     text-align: center;
   }
-  .body { flex: 1 1 auto; }
+  .body { flex: 1 1 auto; min-width: 0; }
   .title {
     display: block;
     font-family: "Archivo Black", sans-serif;
@@ -104,6 +104,7 @@
     line-height: 1.0;
     text-transform: uppercase;
     letter-spacing: -0.01em;
+    overflow-wrap: break-word;
   }
   .desc {
     display: block;
@@ -141,15 +142,6 @@
 
     <ul class="games">
       <li>
-        <a class="game" href="https://the-institute.ch/training.html">
-          <span class="num" aria-hidden="true">&sect;</span>
-          <span class="body">
-            <span class="title">The IAD Games</span>
-            <span class="desc">Training exercises courtesy of the Institute for the Advancement of Dictatorships.</span>
-          </span>
-        </a>
-      </li>
-      <li>
         <a class="game" href="https://steffenhuck.github.io/e-games">
           <span class="num" aria-hidden="true">&pound;</span>
           <span class="body">
@@ -177,6 +169,15 @@
         </a>
       </li>
       <li>
+        <a class="game" href="https://steffenhuck.github.io/lc-games">
+          <span class="num" aria-hidden="true">&para;</span>
+          <span class="body">
+            <span class="title">The Escapable Canon</span>
+            <span class="desc">Literary counterfactuals. Unfix what the canon fixed.</span>
+          </span>
+        </a>
+      </li>
+      <li>
         <a class="game" href="https://steffenhuck.github.io/b-games">
           <span class="num" aria-hidden="true">&dagger;</span>
           <span class="body">
@@ -191,6 +192,15 @@
           <span class="body">
             <span class="title">Puzzles</span>
             <span class="desc">Some easy, some less so. All distraction.</span>
+          </span>
+        </a>
+      </li>
+      <li>
+        <a class="game" href="https://the-institute.ch/training.html">
+          <span class="num" aria-hidden="true">&sect;</span>
+          <span class="body">
+            <span class="title">The IAD Games</span>
+            <span class="desc">Training exercises courtesy of the Institute for the Advancement of Dictatorships.</span>
           </span>
         </a>
       </li>
